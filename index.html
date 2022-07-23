@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargo Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="main__header">
+        <section class="main__header_wrap">
+            <div class="main__header_h1">
+                <h1>Cargo Planner</h1>
+            </div>
+            <div class="searchBar">
+                <form id="searchbar" action="#">
+                    <input class="searchbar_input" type="text" placeholder="Search"/>
+                </form>
+            </div>
+
+            <div class="main__header_btns">
+                <button class="load_btn btns">Load</button>
+                <button class="save_btn btns">Save</button>
+            </div>
+        </section>
+    </header>
+
+    <main class="container">
+        <section class="scrollBar1 companies">
+            <div id="" style="overflow-y:scroll; height:710px;">
+                <p><a href="#">Company A</a></p>
+                <p><a href="#">Company B</a></p>
+                <p><a href="#">Company C</a></p>
+            </div>
+        </section>
+
+        <section class="scrollBar2 company_details">
+            <div class="company_title">
+                <h1>Company A</h1>
+            </div>
+
+            <div class="company_email">
+                <p><a href="mailto:infocompanya.com">infocompanya.com</a></p>
+            </div>
+
+            <div class="bays">
+                <p>
+                    Number of required cargo bays <b>2</b>
+                </p>
+            </div>
+
+            <div class="cargo_boxes">
+                <p>Cargo boxes</p>
+                <input type="text" value="1,2.2,5,10">
+            </div>
+        </section>
+    </main>
+
+    <footer class="main_footer">
+        <p></p>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
