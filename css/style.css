@@ -124,8 +124,16 @@ body {
 
 .company_details {
     padding: 0px 40px;
+
+    font-size: 25px;
 }
 
+.cargo_boxes input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+}
 
 
 
